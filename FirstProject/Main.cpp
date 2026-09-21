@@ -1,7 +1,14 @@
 #include <iostream>
+#include "yvals_core.h"
 
-int main()
+#ifndef yvals_core_H
 
-{
-	std::cout << "A first message";
-}
+#define yvals_core_H
+
+int SlotsUsed(int items);
+
+#endif // yvals_core_H
+
+int main() { std::cout << SlotsUsed(4) << "\n"; return 0; }
+
+int SlotsUsed(int items) { return items; }
