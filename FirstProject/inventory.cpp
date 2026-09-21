@@ -1,0 +1,1 @@
+int SlotsUsed(int items) { return items; }
