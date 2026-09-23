@@ -1,8 +1,15 @@
 #include <iostream>
+#include "item.h"
 #include "inventory.h"
 
-int main() { std::cout << SlotsUsed(4) << "\n"; return 0; }
+int main()
+{
+	std::cout << slotfree(4) << "\n"; return 0;
+}
 
-// 
-// TODO: add the DECLARATION of SlotsFree here.
-// It takes an int and returns an int.
+int main2()
+{
+	item sword;
+	sword.weight = 5;
+	std::cout << sword.weight << "\n"; return 0;
+}

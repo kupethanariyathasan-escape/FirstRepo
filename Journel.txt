@@ -1,0 +1,7 @@
+### journal
+
+## work book one question 4
+
+# should inventory.h have a guard?
+
+ask teacher

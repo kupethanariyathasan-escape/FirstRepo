@@ -4,4 +4,9 @@
 int SlotsUsed(int items);
 
 #endif // inventory_H
-#pragma once
+
+int slotfree(int items);
+
+#include "Item.h"
+
+int totalWeight(int count);
