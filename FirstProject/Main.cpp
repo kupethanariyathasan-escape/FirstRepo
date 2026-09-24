@@ -1,6 +1,8 @@
 #include <iostream>
 #include "item.h"
 #include "inventory.h"
+#include "colours.h"
+#include "palette.h"
 
 int main()
 {
